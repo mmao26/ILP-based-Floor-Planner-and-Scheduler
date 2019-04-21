@@ -1,0 +1,137 @@
+# Configuration file of the Resources available in DASH-SoC
+# Lines that start with "#" are comments
+
+# Add a new resource using the keyword: add_new_resource
+# The format: add_new_resource $resource_type (string) $resource_id (int) $num_of_supported_functionality (int)
+#             The previous line must be followed by these three functionalities
+#             $functionality_name (string) $execution_time (float) $power_consumption (float)
+#
+# Example: The following lines add a new CPU with ID=0 that can run 3 different tasks
+#          add_new_resource CPU 0 3
+#          scrambler 12 14
+#          reed_solomon_encoder 15 16
+#          bpsk_modulation 18 30
+
+#          CPUa_0: A53
+#          CPUa_1: A57
+#          ACCa_2: encoder acc
+#          ACCb_2: FFT acc
+# RULE1: CPUa means the exactly same resource; 
+# RULE2: ACC and CPU cannot have the same name like: a_1.
+
+add_new_resource CPUa_0 0 42
+task_1 22 22
+task_2 8 8
+task_3 15 15
+task_4 4 4
+task_6 4 4
+task_7 8 8
+task_8 15 15
+task_9 4 4
+task_11 4 4
+task_12 8 8
+task_13 15 15
+task_14 4 4
+task_16 4 4
+task_17 8 8
+task_18 15 15
+task_19 4 4
+task_21 4 4
+task_22 8 8
+task_23 15 15
+task_24 4 4
+task_26 4 4
+task_27 22 22
+task_28 8 8
+task_29 15 15
+task_30 4 4
+task_32 4 4
+task_33 8 8
+task_34 15 15
+task_35 4 4
+task_37 4 4
+task_38 8 8
+task_39 15 15
+task_40 4 4
+task_42 4 4
+task_43 8 8
+task_44 15 15
+task_45 4 4
+task_47 4 4
+task_48 8 8
+task_49 15 15
+task_50 4 4
+task_52 4 4
+
+
+add_new_resource CPUa_1 1 42
+task_1 22 22
+task_2 8 8
+task_3 15 15
+task_4 4 4
+task_6 4 4
+task_7 8 8
+task_8 15 15
+task_9 4 4
+task_11 4 4
+task_12 8 8
+task_13 15 15
+task_14 4 4
+task_16 4 4
+task_17 8 8
+task_18 15 15
+task_19 4 4
+task_21 4 4
+task_22 8 8
+task_23 15 15
+task_24 4 4
+task_26 4 4
+task_27 22 22
+task_28 8 8
+task_29 15 15
+task_30 4 4
+task_32 4 4
+task_33 8 8
+task_34 15 15
+task_35 4 4
+task_37 4 4
+task_38 8 8
+task_39 15 15
+task_40 4 4
+task_42 4 4
+task_43 8 8
+task_44 15 15
+task_45 4 4
+task_47 4 4
+task_48 8 8
+task_49 15 15
+task_50 4 4
+task_52 4 4
+
+add_new_resource ACCa_2 2 2
+task_1 10 10
+task_27 10 10
+
+add_new_resource ACCb_2 2 10
+task_5 24 24
+task_10 24 24
+task_15 24 24
+task_20 24 24
+task_25 24 24
+task_31 24 24
+task_36 24 24
+task_41 24 24
+task_46 24 24
+task_51 24 24
+
+add_new_resource ACCb_3 3 10
+task_5 24 24
+task_10 24 24
+task_15 24 24
+task_20 24 24
+task_25 24 24
+task_31 24 24
+task_36 24 24
+task_41 24 24
+task_46 24 24
+task_51 24 24

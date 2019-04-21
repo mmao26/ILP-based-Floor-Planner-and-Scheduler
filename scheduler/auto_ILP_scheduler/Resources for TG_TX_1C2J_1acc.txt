@@ -1,0 +1,40 @@
+# Configuration file of the Resources available in DASH-SoC
+# Lines that start with "#" are comments
+
+# Add a new resource using the keyword: add_new_resource
+# The format: add_new_resource $resource_type (string) $resource_id (int) $num_of_supported_functionality (int)
+#             The previous line must be followed by these three functionalities
+#             $functionality_name (string) $execution_time (float) $power_consumption (float)
+#
+# Example: The following lines add a new CPU with ID=0 that can run 3 different tasks
+#          add_new_resource CPU 0 3
+#          scrambler 12 14
+#          reed_solomon_encoder 15 16
+#          bpsk_modulation 18 30
+
+#          CPUa_0: A53
+#          CPUa_1: A57
+#          ACCa_2: encoder acc
+#          ACCb_2: FFT acc
+# RULE1: CPUa means the exactly same resource; 
+# RULE2: ACC and CPU cannot have the same name like: a_1.
+
+add_new_resource CPUa_0 0 10
+task_1 22 22
+task_2 8 8
+task_3 15 15
+task_4 4 4
+task_6 4 4
+task_7 22 22
+task_8 8 8
+task_9 15 15
+task_10 4 4
+task_12 4 4
+
+add_new_resource ACCa_2 2 2
+task_1 10 10
+task_7 10 10
+
+add_new_resource ACCb_2 2 2
+task_5 24 24
+task_11 24 24

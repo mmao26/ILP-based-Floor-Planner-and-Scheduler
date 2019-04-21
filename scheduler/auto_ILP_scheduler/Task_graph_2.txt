@@ -1,0 +1,27 @@
+# Configuration file of the Tasks
+# Lines that start with "#" are comments
+
+# Start adding task using the keyword: add_new_tasks
+# The previous line must be followed by these three attributes
+# $task_name (string) $task_id (int) $task_predecessors (list)
+# The format: add_new_tasks $num_of_tasks (int)
+#             $task_name (string) $task_id (int) $task_predecessors (list)
+# Example: The following lines add a new task with ID=0, and
+#          predecessor for this task is task with ID=2
+#          (empty list means there is no dependency)
+#
+#           add_new_tasks 1
+#           scrambler 0 2
+
+add_new_tasks 5
+task_1 1
+task_1 earliest_start 0 deadline 100 
+task_2 2 1
+task_2 earliest_start 0 deadline 100
+task_3 3 2
+task_3 earliest_start 0 deadline 100
+task_4 4
+task_4 earliest_start 0 deadline 100 
+task_5 5 4
+task_5 earliest_start 0 deadline 100
+

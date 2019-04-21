@@ -1,0 +1,13 @@
+function energy_total = get_total_energy(taskID, resourceID, startTime, endTime, power_information)
+    energy_total = 0;
+    for i = 1:size(taskID, 2)
+        task_id = taskID(i);
+        resource_id = resourceID(i);
+        
+        [row_idx, temp] = find(power_information(:, end-1) == resource_id);
+        
+        exe_power = power_information(row_idx(1), task_id);
+        execution_energy = (endTime(i) - startTime(i) + 1) * exe_power;
+        energy_total = energy_total
+    end
+end

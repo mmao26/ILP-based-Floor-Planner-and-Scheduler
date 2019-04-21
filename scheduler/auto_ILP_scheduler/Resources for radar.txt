@@ -1,0 +1,79 @@
+# Configuration file of the Resources available in DASH-SoC
+# Lines that start with "#" are comments
+
+# Add a new resource using the keyword: add_new_resource
+# The format: add_new_resource $resource_type (string) $resource_id (int) $num_of_supported_functionality (int)
+#             The previous line must be followed by these three functionalities
+#             $functionality_name (string) $execution_time (float) $power_consumption (float)
+#
+# Example: The following lines add a new CPU with ID=0 that can run 3 different tasks
+#          add_new_resource CPU 0 3
+#          scrambler 12 14
+#          reed_solomon_encoder 15 16
+#          bpsk_modulation 18 30
+
+# 20 means that it will take 2 cyckes for tasks to finish
+# 10 means that it will take 1 cyckes for tasks to finish
+
+
+
+add_new_resource CPUa_0 0 8
+task_1 10 10
+task_2 10 10
+task_3 10 10
+task_4 10 10
+task_5 3 3
+task_6 3 3
+task_7 3 3
+task_8 3 3
+
+
+add_new_resource CPUb_0 0 8
+task_1 10 10
+task_2 10 10
+task_3 10 10
+task_4 10 10
+task_5 3 3
+task_6 3 3
+task_7 3 3
+task_8 3 3
+
+add_new_resource ACCa_1 1 8
+task_1 4 4
+task_2 4 4
+task_3 4 4
+task_4 4 4
+task_5 1 1
+task_6 1 1
+task_7 1 1
+task_8 1 1
+
+add_new_resource ACCb_1 1 8
+task_1 4 4
+task_2 4 4
+task_3 4 4
+task_4 4 4
+task_5 1 1
+task_6 1 1
+task_7 1 1
+task_8 1 1
+
+add_new_resource ACCc_1 1 8
+task_1 4 4
+task_2 4 4
+task_3 4 4
+task_4 4 4
+task_5 1 1
+task_6 1 1
+task_7 1 1
+task_8 1 1
+
+add_new_resource ACCd_1 1 8
+task_1 4 4
+task_2 4 4
+task_3 4 4
+task_4 4 4
+task_5 1 1
+task_6 1 1
+task_7 1 1
+task_8 1 1

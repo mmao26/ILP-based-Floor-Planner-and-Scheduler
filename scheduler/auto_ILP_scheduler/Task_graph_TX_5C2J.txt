@@ -1,0 +1,105 @@
+add_new_tasks	52
+task_1	1
+task_1	earliest_start	0	deadline	500
+task_2	2	1
+task_2	earliest_start	0	deadline	500
+task_3	3	2
+task_3	earliest_start	0	deadline	500
+task_4	4	3
+task_4	earliest_start	0	deadline	500
+task_5	5	4
+task_5	earliest_start	0	deadline	500
+task_6	6	5
+task_6	earliest_start	0	deadline	500
+task_7	7       1
+task_7	earliest_start	0	deadline	500
+task_8	8	7
+task_8	earliest_start	0	deadline	500
+task_9	9	8
+task_9	earliest_start	0	deadline	500
+task_10	10	9
+task_10	earliest_start	0	deadline	500
+task_11	11	10
+task_11	earliest_start	0	deadline	500
+task_12	12      1
+task_12	earliest_start	0	deadline	500
+task_13	13	12
+task_13	earliest_start	0	deadline	500
+task_14	14	13
+task_14	earliest_start	0	deadline	500
+task_15	15	14
+task_15	earliest_start	0	deadline	500
+task_16	16	15
+task_16	earliest_start	0	deadline	500
+task_17	17      1
+task_17	earliest_start	0	deadline	500
+task_18	18	17
+task_18	earliest_start	0	deadline	500
+task_19	19	18
+task_19	earliest_start	0	deadline	500
+task_20	20	19
+task_20	earliest_start	0	deadline	500
+task_21	21	20
+task_21	earliest_start	0	deadline	500
+task_22	22      1
+task_22	earliest_start	0	deadline	500
+task_23	23	22
+task_23	earliest_start	0	deadline	500
+task_24	24	23
+task_24	earliest_start	0	deadline	500
+task_25	25	24
+task_25	earliest_start	0	deadline	500
+task_26	26	25
+task_26	earliest_start	0	deadline	500
+task_27	27
+task_27	earliest_start	0	deadline	500
+task_28	28	27
+task_28	earliest_start	0	deadline	500
+task_29	29	28
+task_29	earliest_start	0	deadline	500
+task_30	30	29
+task_30	earliest_start	0	deadline	500
+task_31	31	30
+task_31	earliest_start	0	deadline	500
+task_32	32      31
+task_32	earliest_start	0	deadline	500
+task_33	33	27
+task_33	earliest_start	0	deadline	500
+task_34	34	33
+task_34	earliest_start	0	deadline	500
+task_35	35	34
+task_35	earliest_start	0	deadline	500
+task_36	36	35
+task_36	earliest_start	0	deadline	500
+task_37	37      36
+task_37	earliest_start	0	deadline	500
+task_38	38	27
+task_38	earliest_start	0	deadline	500
+task_39	39	38
+task_39	earliest_start	0	deadline	500
+task_40	40	39
+task_40	earliest_start	0	deadline	500
+task_41	41	40
+task_41	earliest_start	0	deadline	500
+task_42	42      41
+task_42	earliest_start	0	deadline	500
+task_43	43	27
+task_43	earliest_start	0	deadline	500
+task_44	44	43
+task_44	earliest_start	0	deadline	500
+task_45	45	44
+task_45	earliest_start	0	deadline	500
+task_46	46	45
+task_46	earliest_start	0	deadline	500
+task_47	47      46
+task_47	earliest_start	0	deadline	500
+task_48	48	27
+task_48	earliest_start	0	deadline	500
+task_49	49	48
+task_49	earliest_start	0	deadline	500
+task_50	50	49
+task_50	earliest_start	0	deadline	500
+task_51	51	50
+task_51	earliest_start	0	deadline	500
+task_52	52      51
+task_52	earliest_start	0	deadline	500

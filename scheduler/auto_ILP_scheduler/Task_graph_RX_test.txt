@@ -1,0 +1,27 @@
+add_new_tasks	13
+task_1	1
+task_1	earliest_start	0	deadline	500
+task_2	2	1
+task_2	earliest_start	0	deadline	500
+task_3	3	2
+task_3	earliest_start	0	deadline	500
+task_4	4	3
+task_4	earliest_start	0	deadline	500
+task_5	5	4
+task_5	earliest_start	0	deadline	500
+task_6	6	5
+task_6	earliest_start	0	deadline	500
+task_7	7	6
+task_7	earliest_start	0	deadline	500
+task_8	8
+task_8	earliest_start	0	deadline	500
+task_9	9	8
+task_9	earliest_start	0	deadline	500
+task_10	10	9
+task_10	earliest_start	0	deadline	500
+task_11	11	10
+task_11	earliest_start	0	deadline	500
+task_12	12	11
+task_12	earliest_start	0	deadline	500
+task_13	13	12
+task_13	earliest_start	0	deadline	500

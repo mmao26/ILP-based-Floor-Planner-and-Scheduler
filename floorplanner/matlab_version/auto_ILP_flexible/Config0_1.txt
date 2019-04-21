@@ -1,0 +1,39 @@
+1000# Configuration file of the Blocks
+# Lines that start with "#" are comments
+
+# Start adding a new block using the keyword: block_n, where n corresponds to #
+# keyword of num_blocks is the total number of blocks
+# The format: $block_id (int): int is 1 or 0. 
+#             hard -- 1, width, height are available; 
+#             soft -- 0, width, height are NA. 
+# The format: $block_id width (int/.) height (int/.) area (int).
+# Example1: block_1 width 4 height 1 area 4
+#          means that block_1 has width of 4, height of 1 and area of 4. 
+# Example2: block_3 width_max . area 8
+#          means that block_3 has unknown width maximum and area of 8. 
+
+num_blocks 12
+block_1 1
+block_1 width 9 height 6 area 54
+block_2 1
+block_2 width 9 height 6 area 54
+block_3 1
+block_3 width 9 height 6 area 54
+block_4 1
+block_4 width 9 height 6 area 54
+block_5 1
+block_5 width 18 height 11 area 198
+block_6 1
+block_6 width 18 height 11 area 198
+block_7 1
+block_7 width 18 height 11 area 198
+block_8 1
+block_8 width 18 height 11 area 198
+block_9 1
+block_9 width 18 height 11 area 198
+block_10 1
+block_10 width 18 height 11 area 198
+block_11 1
+block_11 width 18 height 11 area 198
+block_12 1
+block_12 width 18 height 11 area 198

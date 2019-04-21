@@ -1,0 +1,15 @@
+add_new_tasks	7
+task_1	1
+task_1	earliest_start	0	deadline	500
+task_2	2	1
+task_2	earliest_start	0	deadline	500
+task_3	3	2
+task_3	earliest_start	0	deadline	500
+task_4	4	3
+task_4	earliest_start	0	deadline	500
+task_5	5	4
+task_5	earliest_start	0	deadline	500
+task_6	6	5
+task_6	earliest_start	0	deadline	500
+task_7	7	6
+task_7	earliest_start	0	deadline	500
